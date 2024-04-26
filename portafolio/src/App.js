@@ -9,11 +9,8 @@ export default function App() {
 function Thing() {
   return (
     <header className="main">
-      <div className="grid grid-cols-4">
-        <h1>title</h1>
-        <h1>title</h1>
-        <h1>title</h1>
-        <h1>title</h1>
+      <div>
+        <h1>Something</h1>
       </div>
     </header>
   );
