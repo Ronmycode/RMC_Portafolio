@@ -1,17 +1,11 @@
-export default function App() {
+import NavBar from "./Components/NavBar";
+
+function App() {
   return (
-    <div className="app">
-      <Thing />
+    <div>
+      <NavBar />
     </div>
   );
 }
 
-function Thing() {
-  return (
-    <header className="main">
-      <div>
-        <h1>Something</h1>
-      </div>
-    </header>
-  );
-}
+export default App;
