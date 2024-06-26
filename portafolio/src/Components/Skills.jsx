@@ -3,12 +3,12 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import Node from "../assets/node.png";
+import Git from "../assets/Git.png";
 // import FireBase from "../assets/firebase.png";
 // import AWS from "../assets/aws.png";
 import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+import Sass from "../assets/Sass.png";
 
 const Skills = () => {
   return (
@@ -51,20 +51,20 @@ const Skills = () => {
             <img className="w-20 mx-auto" src={GitHub} alt="GitHub icon" />
             <p className="my-4">GitHub</p>
           </div>
-          {/* NodeJs */}
+          {/* Git */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="NodeJs icon" />
-            <p className="my-4">NodeJs</p>
+            <img className="w-20 mx-auto" src={Git} alt="NodeJs icon" />
+            <p className="my-4">Git</p>
           </div>
-          {/* MongoDB */}
+          {/* tailwind */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Tailwind} alt="Tailwind icon" />
             <p className="my-4">Tailwind</p>
           </div>
-          {/* AWS */}
+          {/* Sass */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mongo} alt="Mongo icon" />
-            <p className="my-4">MongoDB</p>
+            <img className="w-20  pt-4 mx-auto" src={Sass} alt="Mongo icon" />
+            <p className="my-4">Sass</p>
           </div>
         </div>
       </div>

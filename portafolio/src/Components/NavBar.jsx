@@ -4,7 +4,7 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
+  // FaFacebook,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -23,11 +23,11 @@ const NavBar = () => {
       {/* Menu Bar */}
 
       <ul className="hidden md:flex">
-        <li>Home!</li>
+        <li>Home</li>
         <li>About</li>
         <li>Skills</li>
         <li>Work</li>
-        <li>Contact</li>
+        {/* <li>Contact</li> */}
       </ul>
 
       {/* hamburger */}
@@ -47,7 +47,7 @@ const NavBar = () => {
         <li className="py-6 text-4xl">About</li>
         <li className="py-6 text-4xl">Skills</li>
         <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        {/* <li className="py-6 text-4xl">Contact</li> */}
       </ul>
 
       {/* Social icons */}
@@ -57,7 +57,7 @@ const NavBar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/ronee-rodriguez-39b1633a/"
             >
               linkedin <FaLinkedin size={30} />
             </a>

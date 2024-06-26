@@ -1,5 +1,5 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
+// import { HiArrowNarrowRight } from "react-icons/hi";
 // import { HiArrowNarrowRight } from "react-icons/hi";
 
 export const Home = () => {
@@ -12,21 +12,19 @@ export const Home = () => {
           Ronee Rodriguez
         </h1>
         <h2 className="text-4xl sm>text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer
+          I'm Web Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus unde maxime alias autem nihil labore, libero odit
-          voluptate aspernatur a quod distinctio, nesciunt expedita ut. Maiores
-          illo corporis unde excepturi sit in.
+          Web Developent 💻 | Self-driven learner 🚀 | fueled by coffee and
+          anxiety 🔥 || React | Git | JavaScrip | Sass | Tailwind |
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600">
+          {/* <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
